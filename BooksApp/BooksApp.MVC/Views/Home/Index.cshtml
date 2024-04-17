@@ -1,0 +1,14 @@
+﻿@{
+    Layout = "_Layout_Index";
+}
+@model List<BookModel>
+@{
+    ViewData["Title"] = "Главная страница";
+    List<BookModel> books = Model;
+}
+<!-- Слайдер -->
+@await Html.PartialAsync("_SliderPartial")
+<!-- Продукты -->
+@await Html.PartialAsync("_BooksPartial", books)
+<!-- Услуги -->
+@await Html.PartialAsync("_ServicesPartial")

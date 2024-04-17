@@ -1,0 +1,97 @@
+﻿@model RoleUsersViewModel
+
+<div class="container-fluid mt-3">
+    <div class="d-flex justify-content-between align-items-center">
+        <h1 class="display-6">Назначение ролей</h1>
+    </div>
+    <hr />
+    @if (Model.SelectRoleList.Count == 0)
+    {
+        <div class="alert alert-warning">
+            Не найдено никакой информации о ролях!
+        </div>
+    }
+    else
+    {
+        <form asp-area="Admin"
+              asp-controller="Roles"
+              asp-action="RoleAssignment"
+              id="formRoleSelect"
+              method="get">
+            <select class="form-select"
+                    asp-items="@Model.SelectRoleList"
+                    asp-for="RoleId"
+                    onchange="document.getElementById('formRoleSelect').submit();">
+            </select>
+        </form>
+
+        <form asp-area="Admin"
+              asp-controller="Roles"
+              asp-action="RoleAssignment"
+              method="post" class="mt-3">
+            <input type="hidden" asp-for="Role.Id" />
+            <input type="hidden" asp-for="Role.Name" />
+
+            <div class="row">
+                @*NonMembers*@
+                <div class="col-6">
+                    <h6 class="bg-success text-white p-3"><span class="text-warning">@Model.Role.Name</span> Пользователи не входящие в группу</h6>
+                    @if (Model.RoleUpdateViewModel.NonMembers.Count == 0)
+                    {
+                        <div class="alert alert-warning">
+                            Все пользователи уже имеют роль @Model.Role.Name!
+                        </div>
+                    }
+                    else
+                    {
+                        <table class="table table-sm table-bordered">
+                            @foreach (var user in Model.RoleUpdateViewModel.NonMembers)
+                            {
+                                <tr>
+                                    <td>
+                                        <input type="checkbox" class="form-check-input" name="IdsToAdd" value="@user.Id" />
+                                        <label class="form-check-label">
+                                            @user.UserName <span class="text-primary">(@user.FirstName @user.LastName)</span>
+                                        </label>
+                                    </td>
+                                </tr>
+                            }
+                        </table>
+                    }
+                </div>
+                @*Members*@
+                <div class="col-6">
+                    <h6 class="bg-success text-white p-3"><span class="text-warning">@Model.Role.Name</span> Пользователи входящие в группу</h6>
+                    @if (Model.RoleUpdateViewModel.Members.Count == 0)
+                    {
+                        <div class="alert alert-warning">
+                            Нет пользователей в роли @Model.Role.Name!
+                        </div>
+                    }
+                    else
+                    {
+                        <table class="table table-sm table-bordered">
+                            @foreach (var user in Model.RoleUpdateViewModel.Members)
+                            {
+                                <tr>
+                                    <td>
+                                        <input type="checkbox" class="form-check-input" name="IdsToRemove" value="@user.Id" />
+                                        <label class="form-check-label">
+                                            @user.UserName <span class="text-primary">(@user.FirstName @user.LastName)</span>
+                                        </label>
+                                    </td>
+                                </tr>
+                            }
+                        </table>
+                    }
+                </div>
+            </div>
+            <div class="d-grid">
+                <button type="submit" class="btn btn-primary">Сохранить изменения</button>
+            </div>
+        </form>
+
+        <div>Количество участников: @Model.RoleUpdateViewModel.Members.Count</div>
+        <div>Количество не участников: @Model.RoleUpdateViewModel.NonMembers.Count</div>
+    }
+</div>

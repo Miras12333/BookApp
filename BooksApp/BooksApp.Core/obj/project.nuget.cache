@@ -1,0 +1,13 @@
+{
+  "version": 2,
+  "dgSpecHash": "k0XmHgBC/H8yftUjdu2DTk5vHfTfcaXKJGEEjopXIU9+sEt8fvxL9VKS0QgXo2E84uhZJ2Ik6oWxNpLanHbnxA==",
+  "success": true,
+  "projectFilePath": "/Users/pc/Desktop/Books-App-main/BooksApp/BooksApp.Core/BooksApp.Core.csproj",
+  "expectedPackageFiles": [
+    "/Users/pc/.nuget/packages/microsoft.aspnetcore.http.features/5.0.17/microsoft.aspnetcore.http.features.5.0.17.nupkg.sha512",
+    "/Users/pc/.nuget/packages/microsoft.extensions.primitives/5.0.1/microsoft.extensions.primitives.5.0.1.nupkg.sha512",
+    "/Users/pc/.nuget/packages/newtonsoft.json/13.0.3/newtonsoft.json.13.0.3.nupkg.sha512",
+    "/Users/pc/.nuget/packages/system.io.pipelines/5.0.2/system.io.pipelines.5.0.2.nupkg.sha512"
+  ],
+  "logs": []
+}

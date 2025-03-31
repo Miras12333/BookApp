@@ -4017,32 +4017,39 @@
     ]
   },
   "packageFolders": {
-    "/Users/pc/.nuget/packages/": {}
+    "C:\\Users\\Miras\\.nuget\\packages\\": {},
+    "C:\\Program Files (x86)\\Microsoft Visual Studio\\Shared\\NuGetPackages": {}
   },
   "project": {
     "version": "1.0.0",
     "restore": {
-      "projectUniqueName": "/Users/pc/Desktop/Books-App-main/BooksApp/BooksApp.Data/BooksApp.Data.csproj",
+      "projectUniqueName": "C:\\Users\\Miras\\Desktop\\BookApp\\BooksApp\\BooksApp.Data\\BooksApp.Data.csproj",
       "projectName": "BooksApp.Data",
-      "projectPath": "/Users/pc/Desktop/Books-App-main/BooksApp/BooksApp.Data/BooksApp.Data.csproj",
-      "packagesPath": "/Users/pc/.nuget/packages/",
-      "outputPath": "/Users/pc/Desktop/Books-App-main/BooksApp/BooksApp.Data/obj/",
+      "projectPath": "C:\\Users\\Miras\\Desktop\\BookApp\\BooksApp\\BooksApp.Data\\BooksApp.Data.csproj",
+      "packagesPath": "C:\\Users\\Miras\\.nuget\\packages\\",
+      "outputPath": "C:\\Users\\Miras\\Desktop\\BookApp\\BooksApp\\BooksApp.Data\\obj\\",
       "projectStyle": "PackageReference",
+      "fallbackFolders": [
+        "C:\\Program Files (x86)\\Microsoft Visual Studio\\Shared\\NuGetPackages"
+      ],
       "configFilePaths": [
-        "/Users/pc/.nuget/NuGet/NuGet.Config"
+        "C:\\Users\\Miras\\AppData\\Roaming\\NuGet\\NuGet.Config",
+        "C:\\Program Files (x86)\\NuGet\\Config\\Microsoft.VisualStudio.FallbackLocation.config",
+        "C:\\Program Files (x86)\\NuGet\\Config\\Microsoft.VisualStudio.Offline.config"
       ],
       "originalTargetFrameworks": [
         "net7.0"
       ],
       "sources": {
+        "C:\\Program Files (x86)\\Microsoft SDKs\\NuGetPackages\\": {},
         "https://api.nuget.org/v3/index.json": {}
       },
       "frameworks": {
         "net7.0": {
           "targetAlias": "net7.0",
           "projectReferences": {
-            "/Users/pc/Desktop/Books-App-main/BooksApp/BooksApp.Entity/BooksApp.Entity.csproj": {
-              "projectPath": "/Users/pc/Desktop/Books-App-main/BooksApp/BooksApp.Entity/BooksApp.Entity.csproj"
+            "C:\\Users\\Miras\\Desktop\\BookApp\\BooksApp\\BooksApp.Entity\\BooksApp.Entity.csproj": {
+              "projectPath": "C:\\Users\\Miras\\Desktop\\BookApp\\BooksApp\\BooksApp.Entity\\BooksApp.Entity.csproj"
             }
           }
         }
@@ -4056,7 +4063,8 @@
         "enableAudit": "true",
         "auditLevel": "low",
         "auditMode": "direct"
-      }
+      },
+      "SdkAnalysisLevel": "9.0.100"
     },
     "frameworks": {
       "net7.0": {
@@ -4101,7 +4109,7 @@
             "privateAssets": "all"
           }
         },
-        "runtimeIdentifierGraphPath": "/usr/local/share/dotnet/sdk/8.0.201/RuntimeIdentifierGraph.json"
+        "runtimeIdentifierGraphPath": "C:\\Program Files\\dotnet\\sdk\\9.0.102\\RuntimeIdentifierGraph.json"
       }
     }
   }

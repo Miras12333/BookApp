@@ -22,3 +22,16 @@
 /Users/pc/Desktop/Books-App-main/BooksApp/BooksApp.Core/obj/Debug/net7.0/refint/BooksApp.Core.dll
 /Users/pc/Desktop/Books-App-main/BooksApp/BooksApp.Core/obj/Debug/net7.0/BooksApp.Core.pdb
 /Users/pc/Desktop/Books-App-main/BooksApp/BooksApp.Core/obj/Debug/net7.0/ref/BooksApp.Core.dll
+C:\Users\Miras\Desktop\BookApp\BooksApp\BooksApp.Core\bin\Debug\net7.0\BooksApp.Core.deps.json
+C:\Users\Miras\Desktop\BookApp\BooksApp\BooksApp.Core\bin\Debug\net7.0\BooksApp.Core.dll
+C:\Users\Miras\Desktop\BookApp\BooksApp\BooksApp.Core\bin\Debug\net7.0\BooksApp.Core.pdb
+C:\Users\Miras\Desktop\BookApp\BooksApp\BooksApp.Core\obj\Debug\net7.0\BooksApp.Core.csproj.AssemblyReference.cache
+C:\Users\Miras\Desktop\BookApp\BooksApp\BooksApp.Core\obj\Debug\net7.0\BooksApp.Core.GeneratedMSBuildEditorConfig.editorconfig
+C:\Users\Miras\Desktop\BookApp\BooksApp\BooksApp.Core\obj\Debug\net7.0\BooksApp.Core.AssemblyInfoInputs.cache
+C:\Users\Miras\Desktop\BookApp\BooksApp\BooksApp.Core\obj\Debug\net7.0\BooksApp.Core.AssemblyInfo.cs
+C:\Users\Miras\Desktop\BookApp\BooksApp\BooksApp.Core\obj\Debug\net7.0\BooksApp.Core.csproj.CoreCompileInputs.cache
+C:\Users\Miras\Desktop\BookApp\BooksApp\BooksApp.Core\obj\Debug\net7.0\BooksApp.Core.sourcelink.json
+C:\Users\Miras\Desktop\BookApp\BooksApp\BooksApp.Core\obj\Debug\net7.0\BooksApp.Core.dll
+C:\Users\Miras\Desktop\BookApp\BooksApp\BooksApp.Core\obj\Debug\net7.0\refint\BooksApp.Core.dll
+C:\Users\Miras\Desktop\BookApp\BooksApp\BooksApp.Core\obj\Debug\net7.0\BooksApp.Core.pdb
+C:\Users\Miras\Desktop\BookApp\BooksApp\BooksApp.Core\obj\Debug\net7.0\ref\BooksApp.Core.dll

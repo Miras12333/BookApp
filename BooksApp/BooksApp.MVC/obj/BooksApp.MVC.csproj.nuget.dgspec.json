@@ -1,33 +1,39 @@
 {
   "format": 1,
   "restore": {
-    "/Users/pc/Desktop/Books-App-main/BooksApp/BooksApp.MVC/BooksApp.MVC.csproj": {}
+    "C:\\Users\\Miras\\Desktop\\BookApp\\BooksApp\\BooksApp.MVC\\BooksApp.MVC.csproj": {}
   },
   "projects": {
-    "/Users/pc/Desktop/Books-App-main/BooksApp/BooksApp.Business/BooksApp.Business.csproj": {
+    "C:\\Users\\Miras\\Desktop\\BookApp\\BooksApp\\BooksApp.Business\\BooksApp.Business.csproj": {
       "version": "1.0.0",
       "restore": {
-        "projectUniqueName": "/Users/pc/Desktop/Books-App-main/BooksApp/BooksApp.Business/BooksApp.Business.csproj",
+        "projectUniqueName": "C:\\Users\\Miras\\Desktop\\BookApp\\BooksApp\\BooksApp.Business\\BooksApp.Business.csproj",
         "projectName": "BooksApp.Business",
-        "projectPath": "/Users/pc/Desktop/Books-App-main/BooksApp/BooksApp.Business/BooksApp.Business.csproj",
-        "packagesPath": "/Users/pc/.nuget/packages/",
-        "outputPath": "/Users/pc/Desktop/Books-App-main/BooksApp/BooksApp.Business/obj/",
+        "projectPath": "C:\\Users\\Miras\\Desktop\\BookApp\\BooksApp\\BooksApp.Business\\BooksApp.Business.csproj",
+        "packagesPath": "C:\\Users\\Miras\\.nuget\\packages\\",
+        "outputPath": "C:\\Users\\Miras\\Desktop\\BookApp\\BooksApp\\BooksApp.Business\\obj\\",
         "projectStyle": "PackageReference",
+        "fallbackFolders": [
+          "C:\\Program Files (x86)\\Microsoft Visual Studio\\Shared\\NuGetPackages"
+        ],
         "configFilePaths": [
-          "/Users/pc/.nuget/NuGet/NuGet.Config"
+          "C:\\Users\\Miras\\AppData\\Roaming\\NuGet\\NuGet.Config",
+          "C:\\Program Files (x86)\\NuGet\\Config\\Microsoft.VisualStudio.FallbackLocation.config",
+          "C:\\Program Files (x86)\\NuGet\\Config\\Microsoft.VisualStudio.Offline.config"
         ],
         "originalTargetFrameworks": [
           "net7.0"
         ],
         "sources": {
+          "C:\\Program Files (x86)\\Microsoft SDKs\\NuGetPackages\\": {},
           "https://api.nuget.org/v3/index.json": {}
         },
         "frameworks": {
           "net7.0": {
             "targetAlias": "net7.0",
             "projectReferences": {
-              "/Users/pc/Desktop/Books-App-main/BooksApp/BooksApp.Data/BooksApp.Data.csproj": {
-                "projectPath": "/Users/pc/Desktop/Books-App-main/BooksApp/BooksApp.Data/BooksApp.Data.csproj"
+              "C:\\Users\\Miras\\Desktop\\BookApp\\BooksApp\\BooksApp.Data\\BooksApp.Data.csproj": {
+                "projectPath": "C:\\Users\\Miras\\Desktop\\BookApp\\BooksApp\\BooksApp.Data\\BooksApp.Data.csproj"
               }
             }
           }
@@ -41,7 +47,8 @@
           "enableAudit": "true",
           "auditLevel": "low",
           "auditMode": "direct"
-        }
+        },
+        "SdkAnalysisLevel": "9.0.100"
       },
       "frameworks": {
         "net7.0": {
@@ -62,26 +69,32 @@
               "privateAssets": "all"
             }
           },
-          "runtimeIdentifierGraphPath": "/usr/local/share/dotnet/sdk/8.0.201/RuntimeIdentifierGraph.json"
+          "runtimeIdentifierGraphPath": "C:\\Program Files\\dotnet\\sdk\\9.0.102\\RuntimeIdentifierGraph.json"
         }
       }
     },
-    "/Users/pc/Desktop/Books-App-main/BooksApp/BooksApp.Core/BooksApp.Core.csproj": {
+    "C:\\Users\\Miras\\Desktop\\BookApp\\BooksApp\\BooksApp.Core\\BooksApp.Core.csproj": {
       "version": "1.0.0",
       "restore": {
-        "projectUniqueName": "/Users/pc/Desktop/Books-App-main/BooksApp/BooksApp.Core/BooksApp.Core.csproj",
+        "projectUniqueName": "C:\\Users\\Miras\\Desktop\\BookApp\\BooksApp\\BooksApp.Core\\BooksApp.Core.csproj",
         "projectName": "BooksApp.Core",
-        "projectPath": "/Users/pc/Desktop/Books-App-main/BooksApp/BooksApp.Core/BooksApp.Core.csproj",
-        "packagesPath": "/Users/pc/.nuget/packages/",
-        "outputPath": "/Users/pc/Desktop/Books-App-main/BooksApp/BooksApp.Core/obj/",
+        "projectPath": "C:\\Users\\Miras\\Desktop\\BookApp\\BooksApp\\BooksApp.Core\\BooksApp.Core.csproj",
+        "packagesPath": "C:\\Users\\Miras\\.nuget\\packages\\",
+        "outputPath": "C:\\Users\\Miras\\Desktop\\BookApp\\BooksApp\\BooksApp.Core\\obj\\",
         "projectStyle": "PackageReference",
+        "fallbackFolders": [
+          "C:\\Program Files (x86)\\Microsoft Visual Studio\\Shared\\NuGetPackages"
+        ],
         "configFilePaths": [
-          "/Users/pc/.nuget/NuGet/NuGet.Config"
+          "C:\\Users\\Miras\\AppData\\Roaming\\NuGet\\NuGet.Config",
+          "C:\\Program Files (x86)\\NuGet\\Config\\Microsoft.VisualStudio.FallbackLocation.config",
+          "C:\\Program Files (x86)\\NuGet\\Config\\Microsoft.VisualStudio.Offline.config"
         ],
         "originalTargetFrameworks": [
           "net7.0"
         ],
         "sources": {
+          "C:\\Program Files (x86)\\Microsoft SDKs\\NuGetPackages\\": {},
           "https://api.nuget.org/v3/index.json": {}
         },
         "frameworks": {
@@ -99,7 +112,8 @@
           "enableAudit": "true",
           "auditLevel": "low",
           "auditMode": "direct"
-        }
+        },
+        "SdkAnalysisLevel": "9.0.100"
       },
       "frameworks": {
         "net7.0": {
@@ -130,34 +144,40 @@
               "privateAssets": "all"
             }
           },
-          "runtimeIdentifierGraphPath": "/usr/local/share/dotnet/sdk/8.0.201/RuntimeIdentifierGraph.json"
+          "runtimeIdentifierGraphPath": "C:\\Program Files\\dotnet\\sdk\\9.0.102\\RuntimeIdentifierGraph.json"
         }
       }
     },
-    "/Users/pc/Desktop/Books-App-main/BooksApp/BooksApp.Data/BooksApp.Data.csproj": {
+    "C:\\Users\\Miras\\Desktop\\BookApp\\BooksApp\\BooksApp.Data\\BooksApp.Data.csproj": {
       "version": "1.0.0",
       "restore": {
-        "projectUniqueName": "/Users/pc/Desktop/Books-App-main/BooksApp/BooksApp.Data/BooksApp.Data.csproj",
+        "projectUniqueName": "C:\\Users\\Miras\\Desktop\\BookApp\\BooksApp\\BooksApp.Data\\BooksApp.Data.csproj",
         "projectName": "BooksApp.Data",
-        "projectPath": "/Users/pc/Desktop/Books-App-main/BooksApp/BooksApp.Data/BooksApp.Data.csproj",
-        "packagesPath": "/Users/pc/.nuget/packages/",
-        "outputPath": "/Users/pc/Desktop/Books-App-main/BooksApp/BooksApp.Data/obj/",
+        "projectPath": "C:\\Users\\Miras\\Desktop\\BookApp\\BooksApp\\BooksApp.Data\\BooksApp.Data.csproj",
+        "packagesPath": "C:\\Users\\Miras\\.nuget\\packages\\",
+        "outputPath": "C:\\Users\\Miras\\Desktop\\BookApp\\BooksApp\\BooksApp.Data\\obj\\",
         "projectStyle": "PackageReference",
+        "fallbackFolders": [
+          "C:\\Program Files (x86)\\Microsoft Visual Studio\\Shared\\NuGetPackages"
+        ],
         "configFilePaths": [
-          "/Users/pc/.nuget/NuGet/NuGet.Config"
+          "C:\\Users\\Miras\\AppData\\Roaming\\NuGet\\NuGet.Config",
+          "C:\\Program Files (x86)\\NuGet\\Config\\Microsoft.VisualStudio.FallbackLocation.config",
+          "C:\\Program Files (x86)\\NuGet\\Config\\Microsoft.VisualStudio.Offline.config"
         ],
         "originalTargetFrameworks": [
           "net7.0"
         ],
         "sources": {
+          "C:\\Program Files (x86)\\Microsoft SDKs\\NuGetPackages\\": {},
           "https://api.nuget.org/v3/index.json": {}
         },
         "frameworks": {
           "net7.0": {
             "targetAlias": "net7.0",
             "projectReferences": {
-              "/Users/pc/Desktop/Books-App-main/BooksApp/BooksApp.Entity/BooksApp.Entity.csproj": {
-                "projectPath": "/Users/pc/Desktop/Books-App-main/BooksApp/BooksApp.Entity/BooksApp.Entity.csproj"
+              "C:\\Users\\Miras\\Desktop\\BookApp\\BooksApp\\BooksApp.Entity\\BooksApp.Entity.csproj": {
+                "projectPath": "C:\\Users\\Miras\\Desktop\\BookApp\\BooksApp\\BooksApp.Entity\\BooksApp.Entity.csproj"
               }
             }
           }
@@ -171,7 +191,8 @@
           "enableAudit": "true",
           "auditLevel": "low",
           "auditMode": "direct"
-        }
+        },
+        "SdkAnalysisLevel": "9.0.100"
       },
       "frameworks": {
         "net7.0": {
@@ -216,26 +237,32 @@
               "privateAssets": "all"
             }
           },
-          "runtimeIdentifierGraphPath": "/usr/local/share/dotnet/sdk/8.0.201/RuntimeIdentifierGraph.json"
+          "runtimeIdentifierGraphPath": "C:\\Program Files\\dotnet\\sdk\\9.0.102\\RuntimeIdentifierGraph.json"
         }
       }
     },
-    "/Users/pc/Desktop/Books-App-main/BooksApp/BooksApp.Entity/BooksApp.Entity.csproj": {
+    "C:\\Users\\Miras\\Desktop\\BookApp\\BooksApp\\BooksApp.Entity\\BooksApp.Entity.csproj": {
       "version": "1.0.0",
       "restore": {
-        "projectUniqueName": "/Users/pc/Desktop/Books-App-main/BooksApp/BooksApp.Entity/BooksApp.Entity.csproj",
+        "projectUniqueName": "C:\\Users\\Miras\\Desktop\\BookApp\\BooksApp\\BooksApp.Entity\\BooksApp.Entity.csproj",
         "projectName": "BooksApp.Entity",
-        "projectPath": "/Users/pc/Desktop/Books-App-main/BooksApp/BooksApp.Entity/BooksApp.Entity.csproj",
-        "packagesPath": "/Users/pc/.nuget/packages/",
-        "outputPath": "/Users/pc/Desktop/Books-App-main/BooksApp/BooksApp.Entity/obj/",
+        "projectPath": "C:\\Users\\Miras\\Desktop\\BookApp\\BooksApp\\BooksApp.Entity\\BooksApp.Entity.csproj",
+        "packagesPath": "C:\\Users\\Miras\\.nuget\\packages\\",
+        "outputPath": "C:\\Users\\Miras\\Desktop\\BookApp\\BooksApp\\BooksApp.Entity\\obj\\",
         "projectStyle": "PackageReference",
+        "fallbackFolders": [
+          "C:\\Program Files (x86)\\Microsoft Visual Studio\\Shared\\NuGetPackages"
+        ],
         "configFilePaths": [
-          "/Users/pc/.nuget/NuGet/NuGet.Config"
+          "C:\\Users\\Miras\\AppData\\Roaming\\NuGet\\NuGet.Config",
+          "C:\\Program Files (x86)\\NuGet\\Config\\Microsoft.VisualStudio.FallbackLocation.config",
+          "C:\\Program Files (x86)\\NuGet\\Config\\Microsoft.VisualStudio.Offline.config"
         ],
         "originalTargetFrameworks": [
           "net7.0"
         ],
         "sources": {
+          "C:\\Program Files (x86)\\Microsoft SDKs\\NuGetPackages\\": {},
           "https://api.nuget.org/v3/index.json": {}
         },
         "frameworks": {
@@ -253,7 +280,8 @@
           "enableAudit": "true",
           "auditLevel": "low",
           "auditMode": "direct"
-        }
+        },
+        "SdkAnalysisLevel": "9.0.100"
       },
       "frameworks": {
         "net7.0": {
@@ -280,37 +308,43 @@
               "privateAssets": "all"
             }
           },
-          "runtimeIdentifierGraphPath": "/usr/local/share/dotnet/sdk/8.0.201/RuntimeIdentifierGraph.json"
+          "runtimeIdentifierGraphPath": "C:\\Program Files\\dotnet\\sdk\\9.0.102\\RuntimeIdentifierGraph.json"
         }
       }
     },
-    "/Users/pc/Desktop/Books-App-main/BooksApp/BooksApp.MVC/BooksApp.MVC.csproj": {
+    "C:\\Users\\Miras\\Desktop\\BookApp\\BooksApp\\BooksApp.MVC\\BooksApp.MVC.csproj": {
       "version": "1.0.0",
       "restore": {
-        "projectUniqueName": "/Users/pc/Desktop/Books-App-main/BooksApp/BooksApp.MVC/BooksApp.MVC.csproj",
+        "projectUniqueName": "C:\\Users\\Miras\\Desktop\\BookApp\\BooksApp\\BooksApp.MVC\\BooksApp.MVC.csproj",
         "projectName": "BooksApp.MVC",
-        "projectPath": "/Users/pc/Desktop/Books-App-main/BooksApp/BooksApp.MVC/BooksApp.MVC.csproj",
-        "packagesPath": "/Users/pc/.nuget/packages/",
-        "outputPath": "/Users/pc/Desktop/Books-App-main/BooksApp/BooksApp.MVC/obj/",
+        "projectPath": "C:\\Users\\Miras\\Desktop\\BookApp\\BooksApp\\BooksApp.MVC\\BooksApp.MVC.csproj",
+        "packagesPath": "C:\\Users\\Miras\\.nuget\\packages\\",
+        "outputPath": "C:\\Users\\Miras\\Desktop\\BookApp\\BooksApp\\BooksApp.MVC\\obj\\",
         "projectStyle": "PackageReference",
+        "fallbackFolders": [
+          "C:\\Program Files (x86)\\Microsoft Visual Studio\\Shared\\NuGetPackages"
+        ],
         "configFilePaths": [
-          "/Users/pc/.nuget/NuGet/NuGet.Config"
+          "C:\\Users\\Miras\\AppData\\Roaming\\NuGet\\NuGet.Config",
+          "C:\\Program Files (x86)\\NuGet\\Config\\Microsoft.VisualStudio.FallbackLocation.config",
+          "C:\\Program Files (x86)\\NuGet\\Config\\Microsoft.VisualStudio.Offline.config"
         ],
         "originalTargetFrameworks": [
           "net7.0"
         ],
         "sources": {
+          "C:\\Program Files (x86)\\Microsoft SDKs\\NuGetPackages\\": {},
           "https://api.nuget.org/v3/index.json": {}
         },
         "frameworks": {
           "net7.0": {
             "targetAlias": "net7.0",
             "projectReferences": {
-              "/Users/pc/Desktop/Books-App-main/BooksApp/BooksApp.Business/BooksApp.Business.csproj": {
-                "projectPath": "/Users/pc/Desktop/Books-App-main/BooksApp/BooksApp.Business/BooksApp.Business.csproj"
+              "C:\\Users\\Miras\\Desktop\\BookApp\\BooksApp\\BooksApp.Business\\BooksApp.Business.csproj": {
+                "projectPath": "C:\\Users\\Miras\\Desktop\\BookApp\\BooksApp\\BooksApp.Business\\BooksApp.Business.csproj"
               },
-              "/Users/pc/Desktop/Books-App-main/BooksApp/BooksApp.Core/BooksApp.Core.csproj": {
-                "projectPath": "/Users/pc/Desktop/Books-App-main/BooksApp/BooksApp.Core/BooksApp.Core.csproj"
+              "C:\\Users\\Miras\\Desktop\\BookApp\\BooksApp\\BooksApp.Core\\BooksApp.Core.csproj": {
+                "projectPath": "C:\\Users\\Miras\\Desktop\\BookApp\\BooksApp\\BooksApp.Core\\BooksApp.Core.csproj"
               }
             }
           }
@@ -324,7 +358,8 @@
           "enableAudit": "true",
           "auditLevel": "low",
           "auditMode": "direct"
-        }
+        },
+        "SdkAnalysisLevel": "9.0.100"
       },
       "frameworks": {
         "net7.0": {
@@ -386,7 +421,7 @@
               "privateAssets": "all"
             }
           },
-          "runtimeIdentifierGraphPath": "/usr/local/share/dotnet/sdk/8.0.201/RuntimeIdentifierGraph.json"
+          "runtimeIdentifierGraphPath": "C:\\Program Files\\dotnet\\sdk\\9.0.102\\RuntimeIdentifierGraph.json"
         }
       }
     }
